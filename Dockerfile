@@ -1,4 +1,4 @@
-FROM apify/actor-node-playwright-webkit
+FROM apify/actor-node-playwright
 
 # Second, copy just package.json and package-lock.json since they are the only files
 # that affect NPM install in the next step
